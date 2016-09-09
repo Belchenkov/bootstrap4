@@ -55,3 +55,12 @@ body {
     transition: 0.4s;
     text-decoration: none;
 }
+
+/* ====== SPANS ====== */
+
+.bold-green {
+    color: rgba(19, 128, 36, 0.9);
+}
+.green-underline {
+    border-bottom: 1px solid rgba(19, 128, 36, 0.9);
+}
