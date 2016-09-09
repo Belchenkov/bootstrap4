@@ -2,6 +2,15 @@ html,
 body {
     height: 100%;
     font-size: 16px;
+    font-family: 'Nunito-Regular';
     background: url(../img/pattern.jpg) center center;
 }
 /*FONT FACES*/
+@font-face {
+    font-family: 'Cubano-Regular';
+    src: local('Cubano-Regular.otf'), url('../fonts/Cubano-Regular.otf') format('truetype');
+}
+@font-face {
+    font-family: 'Nunito-Regular';
+    src: local('Nunito-Regular.ttf'), url('../fonts/Nunito-Regular.ttf') format('opentype');
+}
