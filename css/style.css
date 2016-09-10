@@ -1,66 +1,112 @@
-@import url('fonts.css');
+
+@import "fonts.css";
+/* Colors
+
+rgba(19, 128, 36, 0.54);
+
+*/
 
 html,
 body {
     height: 100%;
     font-size: 16px;
     font-family: 'Cubano-Regular';
-    background: url(../img/pattern.jpg) center center;
+    background: url('../img/pattern.jpg') center center;
 }
-/*====== SECTION COVER =====*/
+
+
+/* SECTION COVER */
 #cover {
-    height: 100%;
     background: url(../img/trees.jpg) center;
-    -webkit-background-size: cover;
     background-size: cover;
-    color: #fff;
+    color: white;
 }
+
 .wall-sticker {
-    padding: 14rem 20rem 16rem 3rem;
-    font: 5rem 'Cubano-Regular', 'Arial', sans-serif;
-    color: #fff;
     background: rgba(0, 0, 0, 0.4);
+    padding: 14rem 20rem 16rem 3rem;
+    font-family: 'Cubano-Regular';
+    font-size: 5rem;
+    color: white;
 }
+
 .moto {
-    font: 3rem 'Cubano-Regular', 'Arial', sans-serif;
+    font-family: 'Cubano-Regular';
+    font-size: 3rem;
     margin-top: 245px;
     margin-left: 350px;
     text-align: center;
 }
 
-/* ====== BUTTONS ======*/
-.btn-lg {
+/* BUTTONS */
+.btn-lg,
+.btn-success-outline {
     background-color: transparent;
     border-radius: 5px;
     border: 1px solid rgba(19, 128, 26, 1);
-    font-family: 'Nunito-Regular', 'Arial', sans-serif;
-    transition: 0.7s;
+    font-family: 'Nunito-Regular';
+    transition: 0.5s;
 }
+.btn-success-outline {
+    color: rgba(19, 128, 36, 0.9);
+}
+.btn-success-outline:hover {
+    color: #fff;    
+}
+
 .btn-lg:hover,
 .btn-lg:focus,
-.btn-lg:active {
-    background: rgba(19, 128, 36, 0.5);
+.btn-lg:active,
+.btn-success-outline:hover,
+.btn-success-outline:focus,
+.btn-success-outline:active {
+    background-color: rgba(19, 128, 36, 0.54);
     border: 1px solid rgba(19, 128, 26, 0);
-    transition: 0.7s;
+    transition: 0.5s;
 }
+
 .fa-arrow-down {
     margin-left: 40rem;
     margin-top: 50px;
     font-size: 2.5rem;
-    color: #fff;
-    transition: 0.4s;
+    color: white;
+    transition: 0.3s;
 }
+
 .fa-arrow-down:hover {
-    color: rgba(19, 128, 36, 0.5);
-    transition: 0.4s;
-    text-decoration: none;
+    color: rgba(19, 128, 36, 0.54);
+    transition: 0.3s;
 }
 
-/* ====== SPANS ====== */
+.parallax-btn {
+    width: 200px;
+    margin: 30px auto 0 auto;
+}
 
+
+/* SPANS */
 .bold-green {
     color: rgba(19, 128, 36, 0.9);
 }
+
 .green-underline {
     border-bottom: 1px solid rgba(19, 128, 36, 0.9);
+}
+
+
+/* NAVBAR */
+.navbar-brand {
+    font-family: 'Cubano-Regular';
+    padding-right: 15px;
+}
+#main-nav {
+    font-family: 'Nunito-Regular';
+}
+#main-nav li a {
+    border-bottom: 1px solid transparent;
+    transition: 0.5s;
+}
+#main-nav li a:hover {
+    border-bottom: 1px solid green;
+    transition: 0.5s;
 }
