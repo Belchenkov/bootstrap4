@@ -1,10 +1,6 @@
-
+/* ====== LIBRARY ====== */
 @import "fonts.css";
-/* Colors
 
-rgba(19, 128, 36, 0.54);
-
-*/
 
 html,
 body {
@@ -15,7 +11,7 @@ body {
 }
 
 
-/* SECTION COVER */
+/* ====== SECTION COVER ====== */
 #cover {
     background: url(../img/trees.jpg) center;
     background-size: cover;
@@ -38,7 +34,7 @@ body {
     text-align: center;
 }
 
-/* BUTTONS */
+/* ====== BUTTONS ====== */
 .btn-lg,
 .btn-success-outline {
     background-color: transparent;
@@ -51,7 +47,7 @@ body {
     color: rgba(19, 128, 36, 0.9);
 }
 .btn-success-outline:hover {
-    color: #fff;    
+    color: #fff;
 }
 
 .btn-lg:hover,
@@ -94,13 +90,13 @@ body {
 }
 
 
-/* NAVBAR */
+/* ====== NAVBAR ====== */
 .navbar-brand {
-    font-family: 'Cubano-Regular';
+    font-family: 'Cubano-Regular', Arial, sans-serif;
     padding-right: 15px;
 }
 #main-nav {
-    font-family: 'Nunito-Regular';
+    font-family: 'Nunito-Regular', Arial, sans-serif;
 }
 #main-nav li a {
     border-bottom: 1px solid transparent;
@@ -109,4 +105,36 @@ body {
 #main-nav li a:hover {
     border-bottom: 1px solid green;
     transition: 0.5s;
+}
+
+/* ====== FEATURES ====== */
+.section-features {
+    padding: 5rem 0;
+    background: url('../img/pattern.jpg') center center;
+}
+.heading,
+.under-heading {
+    text-align: center;
+}
+.square {
+    text-align: center;
+}
+.square i {
+    text-align: center;
+    margin: 5rem 0 1rem 0;
+    transition: 0.3s;
+}
+.square i:hover {
+    color: rgba(19, 128, 36, 1);
+    transition: 0.3s;
+}
+.square p {
+    padding-top: 1rem;
+    font-family: 'Nunito-Regular', Arial, sans-serif;
+    font-size: 1.2rem;
+}
+.green-hr {
+    border-top: 1px solid rgba(19, 128, 36, 1);
+    width: 150px;
+    background-color: rgba(19, 128, 36, 1);
 }
