@@ -43,9 +43,11 @@ body {
     font-family: 'Nunito-Regular';
     transition: 0.5s;
 }
+
 .btn-success-outline {
     color: rgba(19, 128, 36, 0.9);
 }
+
 .btn-success-outline:hover {
     color: #fff;
 }
@@ -95,13 +97,16 @@ body {
     font-family: 'Cubano-Regular', Arial, sans-serif;
     padding-right: 15px;
 }
+
 #main-nav {
     font-family: 'Nunito-Regular', Arial, sans-serif;
 }
+
 #main-nav li a {
     border-bottom: 1px solid transparent;
     transition: 0.5s;
 }
+
 #main-nav li a:hover {
     border-bottom: 1px solid green;
     transition: 0.5s;
@@ -112,29 +117,115 @@ body {
     padding: 5rem 0;
     background: url('../img/pattern.jpg') center center;
 }
+
 .heading,
 .under-heading {
     text-align: center;
 }
+
 .square {
     text-align: center;
 }
+
 .square i {
     text-align: center;
     margin: 5rem 0 1rem 0;
     transition: 0.3s;
 }
+
 .square i:hover {
     color: rgba(19, 128, 36, 1);
     transition: 0.3s;
 }
+
 .square p {
     padding-top: 1rem;
     font-family: 'Nunito-Regular', Arial, sans-serif;
     font-size: 1.2rem;
 }
+
 .green-hr {
     border-top: 1px solid rgba(19, 128, 36, 1);
     width: 150px;
     background-color: rgba(19, 128, 36, 1);
+}
+
+/* === TIMELINE === */
+.section-timeline {
+    background-color: #fff;
+    padding-top: 5rem;
+}
+
+.timeline {
+    list-style: none;
+    padding: 70px 0 80px;
+    position: relative;
+}
+
+.timeline:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: ' ';
+    width: 3px;
+    background-color: #eee;
+    left: 50%;
+    margin-left: -1.5px;
+}
+
+.timeline > li {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.timeline > li:not(.timeline-inverted) {
+    padding-right: 90px;
+}
+
+.timeline > li.timeline-inverted {
+    padding-left: 90px;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+}
+
+.timeline > li:before,
+.timeline > li:after {
+    content: '';
+    display: table;
+}
+
+.timeline > li:after {
+    clear: both;
+}
+
+.timeline > li > .timeline-panel {
+    width: 50%;
+    float: left;
+    border: 1px solid #d4d4d4;
+    border-radius: 2px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+
+.timeline .timeline-body {
+    font-family: 'Nunito-Regular', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.timeline > li > .timeline-badge {
+    font-size: 1rem; !important;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: rgba(19, 128, 36, 0.8);
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    margin-left: -25px;
+    border-radius: 50%;
 }
