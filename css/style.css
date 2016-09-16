@@ -229,3 +229,26 @@ body {
     margin-left: -25px;
     border-radius: 50%;
 }
+
+.fa.fa-clock-o {
+    padding-right: 3px;
+}
+
+/* ====== SECTION-PARALLAX ====== */
+#section-parallax {
+    text-align: center;
+    background: url("../img/trees.jpg") center repeat fixed;
+    padding: 140px 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+
+/* ====== SECTION-CARDS ====== */
+#section-cards {
+    text-align: center;
+}
+
+.card-block {
+
+}
