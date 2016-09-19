@@ -247,8 +247,28 @@ body {
 /* ====== SECTION-CARDS ====== */
 #section-cards {
     text-align: center;
+    padding: 5rem 0;
 }
 
-.card-block {
+.card {
+    margin-top: 3rem;
+}
 
+.card a {
+    color: rgba(19, 128, 36, 0.90);
+}
+
+.card a:hover {
+    color: rgb(19, 128, 36);
+}
+
+.card img {
+    height: 180px;
+    width: 345px;
+    transition: 1s;
+}
+
+.card img:hover {
+    transform: scale(0.98);
+    transition: 1s;
 }
