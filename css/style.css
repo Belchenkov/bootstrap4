@@ -274,3 +274,38 @@ body {
 }
 
 /* ====== SECTION-NUMBERS ====== */
+.section-numbers {
+    background-color: #FFF;
+    padding-top: 5rem;
+}
+
+.section-numbers h2 {
+    text-align: center;
+}
+
+.num-content {
+    text-align: center;
+    display: table;
+    font-size: 20px;
+    color: #fff;
+    line-height: 20px;
+    height: 140px;
+    width: 140px;
+    background-color:rgba(19, 128, 36, 0.90);
+    border-radius: 100px;
+}
+
+.num .num-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.num .num-content p {
+    padding-top: 15px;
+}
+
+.num {
+    text-align: center;
+    padding: 5rem 0;
+    margin-left: 80px;
+}
