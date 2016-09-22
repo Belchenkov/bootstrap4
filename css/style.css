@@ -293,6 +293,12 @@ body {
     width: 140px;
     background-color:rgba(19, 128, 36, 0.90);
     border-radius: 100px;
+    transition: 0.3s;
+}
+
+.num-content:hover {
+    color: #222;
+    transition: 0.3s;
 }
 
 .num .num-content {
@@ -308,4 +314,45 @@ body {
     text-align: center;
     padding: 5rem 0;
     margin-left: 80px;
+}
+
+/* ====== SECTION-TESTIMONIALS ====== */
+
+.section-testimonials {
+    padding-top: 5rem;
+}
+
+.section-testimonials h2 {
+    text-align: center;
+}
+
+.testimonial {
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.mario-img,
+.monice-img,
+.monka-img {
+    width: 135px;
+    height: auto;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.mario-img:hover,
+.monice-img:hover,
+.monka-img:hover {
+    transition: 0.5s;
+    transform: scale(0.95);
+}
+
+blockquote {
+    margin-left: 20px;
+    font-family: 'Nunito-Regular', Arial, sans-serif;
+}
+
+.testimonials-hr {
+    border-bottom: 1px solid rgba(19, 128, 36, 1);
+    background-color: rgba(19, 128, 36, 1);
 }
