@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Bootstrap4</title>
+    <title>OneTree</title>
 
 <!--====== STYLE ====== -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -54,7 +54,7 @@
                 <a class="nav-link" href="#testimonials">Testimonials</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact us</a>
+                <a class="nav-link" href="#">Contact us</a>
             </li>
         </ul><!-- /.nav navbar-nav-->
         <form action="#" class="form-inline pull-xs-right">
@@ -331,6 +331,50 @@
             </div><!--/.container-->
         </div><!--/.section-testimonials-->
     </section><!--/#testimonials-->
+
+    <!-- ====== CONTACT ======-->
+    <section id="contact">
+        <div class="section-contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2">
+                        <h2 class="heading">Leave us a <span class="bold-green">message</span>!</h2>
+                        <form action="#" class="form-horizontal" role="form" method="post">
+                            <div class="form-group">
+                                <label for="name" class="col-sm-2 control-label">Name</label>
+                                <div class="col-sm-10">
+                                    <input type="text" id="name" class="form-control" name="name" placeholder="first and last name">
+                                </div><!--/.col-sm-10-->
+                            </div><!--/.form-group-->
+                            <div class="form-group">
+                                <label for="email" class="col-sm-2 control-label">Email</label>
+                                <div class="col-sm-10">
+                                    <input type="email" id="email" class="form-control" name="email" placeholder="email@domain.com">
+                                </div><!--/.col-sm-10-->
+                            </div><!--/.form-group-->
+                            <div class="form-group">
+                                <label for="message" class="col-sm-2 control-label">message</label>
+                                <div class="col-sm-10">
+                                    <textarea id="message" class="form-control" name="message" rows="4" placeholder="Your message"></textarea>
+                                </div><!--/.col-sm-10-->
+                            </div><!--/.form-group-->
+                            <div class="form-group">
+                                <label for="human" class="col-sm-2 control-label">2 + 4 = ?</label>
+                                <div class="col-sm-10">
+                                    <input id="human" class="form-control" name="human" placeholder="Your answer">
+                                </div><!--/.col-sm-10-->
+                            </div><!--/.form-group-->
+                            <div class="form-group">
+                                <div class="col-sm-10 offset-sm-2">
+                                    <input id="submit" class="btn btn-success" name="submit" value="Send the raven!">
+                                </div><!--/.col-sm-10.offset-sm-2-->
+                            </div><!--/.form-group-->
+                        </form>
+                    </div><!--/.col-md-8.col-md-offset-2-->
+                </div><!--/.row-->
+            </div><!--/.container-->
+        </div><!--/.section-contact-->
+    </section><!--/#contact-->
 
 <!--====== SCRIPTS ====== -->
     <script src="js/jquery-3.1.0.min.js"></script>

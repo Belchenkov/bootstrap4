@@ -25,21 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1298">
-              <caret line="326" column="14" selection-start-line="326" selection-start-column="14" selection-end-line="326" selection-end-column="14" />
+            <state relative-caret-position="151">
+              <caret line="361" column="50" selection-start-line="361" selection-start-column="50" selection-end-line="361" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="356" column="22" selection-start-line="356" selection-start-column="22" selection-end-line="356" selection-end-column="22" />
+            <state relative-caret-position="85">
+              <caret line="381" column="21" selection-start-line="381" selection-start-column="21" selection-end-line="381" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -81,8 +81,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="385" />
+    <option name="x" value="-11" />
+    <option name="y" value="393" />
     <option name="width" value="1604" />
     <option name="height" value="475" />
   </component>
@@ -112,6 +112,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -146,7 +147,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -251,6 +251,8 @@
       <workItem from="1474038280863" duration="4219000" />
       <workItem from="1474291411952" duration="3687000" />
       <workItem from="1474549682243" duration="3556000" />
+      <workItem from="1474553351830" duration="33000" />
+      <workItem from="1474701492698" duration="4677000" />
     </task>
     <task id="LOCAL-00001" summary="add fonts">
       <created>1473436805109</created>
@@ -326,16 +328,16 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32763000" />
+    <option name="totallyTimeSpent" value="37473000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="385" width="1604" height="475" extended-state="0" />
+    <frame x="-11" y="393" width="1604" height="475" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11494253" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2244898" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -379,6 +381,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7172">
+          <caret line="326" column="14" selection-start-line="326" selection-start-column="14" selection-end-line="326" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7172">
+          <caret line="326" column="14" selection-start-line="326" selection-start-column="14" selection-end-line="326" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5126">
@@ -494,18 +520,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1298">
-          <caret line="326" column="14" selection-start-line="326" selection-start-column="14" selection-end-line="326" selection-end-column="14" />
+        <state relative-caret-position="85">
+          <caret line="381" column="21" selection-start-line="381" selection-start-column="21" selection-end-line="381" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="356" column="22" selection-start-line="356" selection-start-column="22" selection-end-line="356" selection-end-column="22" />
+        <state relative-caret-position="151">
+          <caret line="361" column="50" selection-start-line="361" selection-start-column="50" selection-end-line="361" selection-end-column="50" />
           <folding />
         </state>
       </provider>
