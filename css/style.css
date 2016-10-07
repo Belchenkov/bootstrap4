@@ -473,3 +473,33 @@ footer p{
     color: rgba(14, 96, 27, 0.7);
     transition: 0.4s;
 }
+
+/* === ANIMATIONS === */
+.js-wp-1,
+.js-wp-2,
+.js-wp-3,
+.js-wp-4 {
+    opacity: 0;
+}
+
+.js-wp-2,
+.js-wp-3 {
+    animation-delay: 0.7s;
+}
+
+.js-wp-1.animated,
+.js-wp-2.animated,
+.js-wp-3.animated,
+.js-wp-4.animated {
+    opacity: 1;
+}
+
+
+/* === MEDIA QUERY === */
+@media only screen and (max-width:1920px) {
+    .wall-sticker {
+        font-size: 5rem;
+        padding: 16rem 20rem 10rem 3rem;
+    }
+}
+
