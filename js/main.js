@@ -11,6 +11,20 @@ $(document).ready(function () {
     });//end window
 }); //end ready()
 
+$("#cover a[href^='#']").on('click', function (e) {
+    e.preventDefault();
+
+    var hash = this.hash;
+
+    $("html, body").animate({
+        scrollTop: $(hash).offset().top},
+        400,
+        function () {
+            window.location.hash = hash;
+        }
+    ); // end animate()
+}); // end on('click')
+
 $(".navbar-dark ul li a[href^='#']").on('click', function (e) {
     e.preventDefault();
 
