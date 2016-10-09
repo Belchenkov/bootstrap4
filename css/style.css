@@ -528,6 +528,7 @@ footer p{
         width: 85px;
         height: 85px;
     }
+
     .testimonials-hr {
         width: 210px;
     }
@@ -545,3 +546,50 @@ footer p{
         font-size: 2.2rem;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .moto {
+        display: none;
+    }
+
+    .fa-arrow-down {
+        position: absolute;
+        right: 60px;
+        top: 150px;
+    }
+
+    .monice-img,
+    .mario-img,
+    .monka-img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .num {
+        margin-left: 0;
+    }
+
+    .num-content {
+        width: 110px;
+        height: 110px;
+    }
+
+    .social-links li {
+        display: inline-block;
+        margin-right: 5px;
+        margin-top: 40px;
+
+
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .testimonial {
+        margin-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .num {
+    }
+}
+
